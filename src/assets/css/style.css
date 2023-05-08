@@ -161,6 +161,11 @@ input:focus-visible {
   gap: 0.5rem;
 }
 
+.task-ckecks > span:focus-visible {
+  outline: 0;
+  box-shadow: 2px 4px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
 .clear {
   display: flex;
   justify-content: center;
@@ -185,6 +190,7 @@ input:focus-visible {
 .task-icons {
   min-width: fit-content;
 }
+
 
 @keyframes rotate {
   0% { transform: rotate(0deg); }
